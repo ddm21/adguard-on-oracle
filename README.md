@@ -21,5 +21,5 @@ users:
 ```
 
 
-Ooficial [Adgurad Docs](https://github.com/AdguardTeam/AdGuardHome)
+Official [Adgurad Docs](https://github.com/AdguardTeam/AdGuardHome)
 
