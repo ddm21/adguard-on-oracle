@@ -13,7 +13,7 @@ sudo apt install apache2-utils
 ```
 htpasswd -B -n -b <USERNAME> <PASSWORD>
 ```
-Go to `sudo nano /opt/AdGuardHome/dGuardHome.yaml` and change password hash whihc was generated with above command.
+Go to `sudo nano /opt/AdGuardHome/AdGuardHome.yaml` and change password hash whihc was generated with above command.
 ```
 users:
  - name: username
