@@ -40,6 +40,10 @@ users:
    password: <HASH>
 ```
 
-
-Official [Adgurad Docs](https://github.com/AdguardTeam/AdGuardHome)
+ - Test AdGuard Ads Blocker
+   - [d3ward.github.io/toolz/adblock](https://d3ward.github.io/toolz/adblock.html)
+   - [fuzzthepiguy.tech/adtest](https://fuzzthepiguy.tech/adtest/)
+   - [thepcspy.com/blockadblock/](https://thepcspy.com/blockadblock/)
+ - Blocklist Collection [firebog.net](https://firebog.net/) and [github.developerdan.com/hosts](https://www.github.developerdan.com/hosts/)
+ - Official [Adgurad Docs](https://github.com/AdguardTeam/AdGuardHome)
 
