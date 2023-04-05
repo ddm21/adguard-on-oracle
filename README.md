@@ -4,6 +4,15 @@ To install with curl run the following command:
 curl -s -S -L https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/scripts/install.sh | sh -s -- -v
 ```
 
+Go `sudo nano /etc/iptables/rules.v4` to Add Firewall rule and add below lines
+```
+-A INPUT -p udp --dport 53 -j ACCEPT
+-A INPUT -p tcp --dport 53 -j ACCEPT
+-A INPUT -p tcp -m state --state NEW -m tcp --dport 80 -j ACCEPT
+-A INPUT -p tcp -m state --state NEW -m tcp --dport 443 -j ACCEPT
+-A INPUT -p tcp -m state --state NEW -m tcp --dport 3000 -j ACCEPT
+```
+
 ### Install Utility to Generate UI Password
 ```
 sudo apt install apache2-utils
