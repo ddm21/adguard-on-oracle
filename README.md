@@ -18,6 +18,12 @@ Go `sudo nano /etc/iptables/rules.v4` to Add Firewall rule and add below lines
 sudo /opt/AdGuardHome/AdGuardHome -s start|stop|restart|status|install|uninstall
 ```
 
+### Disbale Default DNS of Ubuntu
+```
+sudo systemctl stop systemd-resolved.service
+sudo systemctl disable systemd-resolved.service
+```
+
 ### Install Utility to Generate UI Password
 ```
 sudo apt install apache2-utils
