@@ -13,6 +13,11 @@ Go `sudo nano /etc/iptables/rules.v4` to Add Firewall rule and add below lines
 -A INPUT -p tcp -m state --state NEW -m tcp --dport 3000 -j ACCEPT
 ```
 
+### You can control the service status with the following commands:
+```
+sudo /opt/AdGuardHome/AdGuardHome -s start|stop|restart|status|install|uninstall
+```
+
 ### Install Utility to Generate UI Password
 ```
 sudo apt install apache2-utils
