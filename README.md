@@ -9,11 +9,11 @@ curl -s -S -L https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/s
 sudo apt install apache2-utils
 ```
 
-### Generate Password Hash
+### Generate Password Hash to Reset the Password
 ```
 htpasswd -B -n -b <USERNAME> <PASSWORD>
 ```
-Go to `sudo nano /opt/AdGuardHome/AdGuardHome.yaml` and change password hash whihc was generated with above command.
+Go to `sudo nano /opt/AdGuardHome/AdGuardHome.yaml` and change password hash which was generated with above command.
 ```
 users:
  - name: username
